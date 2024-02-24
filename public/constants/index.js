@@ -179,4 +179,25 @@ export const projects = [
         description: 'Developed a web application for contributors 123rf uploading their photos, and videos.',
         link: 'https://www.123rf.com/contributors/dashboard',
     },
+    {
+        iconUrl: ysppl,
+        theme: 'btn-back-black',
+        name: 'YSPPL Singapore',
+        description: 'Built user-friendly profile company and visually stunning website.',
+        link: 'https://ysppl.com.sg/',
+    },
+    {
+        iconUrl: kzmulia,
+        theme: 'btn-back-black',
+        name: 'Kzmulia Logistic Web Application',
+        description: 'Reviewed code, debugged problems, and corrected issues on project kzmulia logistic web application',
+        link: 'https://mydatalogistic.kzmulia.com/',
+    },
+    {
+        iconUrl: smk,
+        theme: 'btn-back-black',
+        name: 'Tuition Manager For School',
+        description: 'Created \"Tuition Manager For School\" web applications.',
+        link: 'https://github.com/nioniarthaputri/tuition-manager/tree/dev',
+    },
 ];

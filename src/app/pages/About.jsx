@@ -13,7 +13,7 @@ const About = () => {
       </h1>
 
       <div className="mt-5 flex -flex-col gap-3 text-slate-500">
-        <p>Frontend Developer based in Bandung,
+        <p>Fullstack Developer based in Bandung,
         I'm all about making the web a more visually appealing and user-friendly place. Let's collaborate and bring your digital dreams to life!</p>
       </div>
 
@@ -51,12 +51,13 @@ const About = () => {
             {experiences.map((experience, index) => {
               return (
                 <VerticalTimelineElement
+                  visible={true}
                   key={`experience-wrapper-${index}`}
                   date={experience.date}
                   icon={
                     <div className='flex justify-center items-center w-full h-full'>
                       <img
-                        src={experience.icon}
+                        src={experience.icon.src}
                         alt={experience.company_name}
                         className='w-[60%] h-[60%] object-contain'
                       />

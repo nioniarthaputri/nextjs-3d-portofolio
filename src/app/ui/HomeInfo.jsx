@@ -7,7 +7,7 @@ const InfoBox = ({ text, link, btnText }) => (
      <p className="font-medium sm:text-xl text-center">{text}</p>
     <Link href={link} className='neo-brutalism-white neo-btn'>
       {btnText}
-      <img src={arrow} className='w-4 h-4 object-contain'/>
+      <img src={arrow.src} className='w-4 h-4 object-contain'/>
     </Link>
   </div>
 )
@@ -19,7 +19,7 @@ const renderContent = {
     >
       Hii!, I am <span className='font-semibold'>Nioni Artha Putri</span>
       <br />
-      A Frontend Developer from Bandung
+      A Fullstack Developer from Bandung
     </h1>
   ),
   2: (

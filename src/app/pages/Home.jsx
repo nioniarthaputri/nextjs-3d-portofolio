@@ -86,7 +86,7 @@ const HomePage = () => {
       <div className="absolute bottom-2 left-2">
         <img
           alt="sound"
-          src={!isPlayingMusic ? soundoff : soundon}
+          src={!isPlayingMusic ? soundoff.src : soundon.src}
           className='w-10 h-10 cursor-pointer object-contain'
           onClick={() => setIsPlayingMusic(!isPlayingMusic)}
         />
